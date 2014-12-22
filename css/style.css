@@ -151,33 +151,11 @@ pre code {
     list-style: none;
 }
 
-.ocramius {
-    background-image: url('../img/marco-pivetta-ocramius.gif');
-}
-
-.twitter {
-    background-image: url('../img/twitter.svg');
-}
-
 .github {
     background-image: url('../img/github.svg');
 }
 
-.roave {
-    background-image: url('../img/roave.svg');
-}
-
-.zendframework {
-    background-image: url('../img/zendframework.png');
-    padding-left: 2.5em;
-}
-
-.doctrine {
-    background-image: url('../img/doctrine.svg');
-    padding-left: 1.2em;
-}
-
-.sidebar a.github, .sidebar a.twitter, .sidebar a.github:hover, .sidebar a.twitter:hover {
+.sidebar a.github, .sidebar a.github:hover {
     color: rgba(0, 0, 0, 0);
     background-position: center;
 }
