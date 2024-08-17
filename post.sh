@@ -16,10 +16,6 @@ mkdir -p _posts/"$YEAR"/"$MONTH"
 # Create the file with YAML frontmatter
 cat > _posts/"$YEAR"/"$MONTH"/"$DATE"-"$SLUG".md <<EOL
 ---
-
-* TOC
-{:toc}
-
 title: "$TITLE"
 date: $DATE
 categories:
@@ -27,6 +23,9 @@ categories:
 keywords: 
 description: ""
 ---
+
+* TOC
+{:toc}
 
 ## 
 
