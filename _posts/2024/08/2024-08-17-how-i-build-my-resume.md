@@ -3,8 +3,8 @@ title: "How I Build my Resume"
 date: 2024-08-17
 categories:
 - 
-keywords: 
-description: ""
+keywords: resume latex
+description: "How I build my resume using LaTex"
 ---
 
 * TOC
@@ -127,3 +127,6 @@ Finally, let's look at `footer.tex`. The footer is incredibly simple compared to
 `includegraphics` commands to include links to my GitHub and LinkedIn profile as pictures of thier logos
 and and a closing `end{document}`.
 
+## Conclusion
+If that was too much to follow, or you just want to crib off an example, I have luckily for you created
+a [template repository](https://github.com/steveno/resume_template) where you can find everything I covered here.  
