@@ -4,7 +4,7 @@ date: 2024-08-17
 categories:
 - 
 keywords: resume latex
-description: "How I build my resume using LaTex"
+description: "How I build my resume using LaTeX"
 ---
 
 * TOC
@@ -16,17 +16,17 @@ to 90% of the resumes I see in the wild mine still ranks among some of best look
 do I do it? Let's take a look!
 
 ## Tools
-Before we take a look under the hood let's look at the tools I use. First, I write my resume in [
-LaTex](https://www.latex-project.org/). When I first started down this path I had to learn LaTex just for
-my resume. The reality is, it's not hard to learn at all. My biggest issue with LaTex, because I only use
+Before we take a look under the hood let's look at the tools I use. First, I write my resume in 
+[LaTeX](https://www.latex-project.org/). When I first started down this path I had to learn LaTeX just for
+my resume. The reality is, it's not hard to learn at all. My biggest issue with LaTeX, because I only use
 it for my resume, is I have trouble remembering various formatting commands and such. Every time I have to
 edit my resume, I end up having to Google how to *\<fill in the blank\>*.
 
-While I have been using vim for even longer than I have been using LaTex to write my resume, I don't use
-vim to compose the LaTex. Instead I use [TeXstudio](https://www.texstudio.org/). I install it via
+While I have been using vim for even longer than I have been using LaTeX to write my resume, I don't use
+vim to compose the LaTeX. Instead I use [TeXstudio](https://www.texstudio.org/). I install it via
 [flatpak](https://www.flatpak.org/) on my Ubuntu machine, which currently installs version 4.7.3. While,
 with a lot of work, I might be able to build a configuration in vim that gives me 90% of what I use
-TeXstudio for, the reality is that editing LaTex for my resume is not similar at all to writing typical
+TeXstudio for, the reality is that editing LaTeX for my resume is not similar at all to writing typical
 programming code (e.g. python or go). So I don't really miss the vim keybindings.
 
 Finally, I always distribute my resume as PDF. A decade ago this was a pain for me because recruiters
@@ -34,7 +34,7 @@ especially would always ask me for a MS Word version of my resume, but nowadays 
 have not been asked for a copy of my resume in Word in several years now.
 
 ## Basic Setup
-My resume actually consists of three LaTex files. The resume files itself (`resume.tex`) along with
+My resume actually consists of three LaTeX files. The resume files itself (`resume.tex`) along with
 `header.tex` and `footer.tex`. I have it split among three files because I teat it like a template. The
 header and footer of the document is also shared with cover letter and my references. This way when I
 want to do something like update the color scheme or my phone number, I can change it in one place and
@@ -60,7 +60,7 @@ In there I have the following line:
 ```
 
 This, without a the matching `\end{document}` document registers as an error in your editor, but when you go
-to build your file, LaTex puts them all together and builds the file for you without error or warning.
+to build your file, LaTeX puts them all together and builds the file for you without error or warning.
 
 Finally, I end `resume.tex` by including `footer.tex`.
 
@@ -120,13 +120,13 @@ After that, I setup page numbers.
 
 From there it's really just about starting off the document. I want all my documents to have the same
 "header" of information, my name, address, phone number, etc. so I set that all here. And that is where
-the document abrubtly ends. If you were to run the header though LaTeX alone it would error out.
+the document abruptly ends. If you were to run the header though LaTeX alone it would error out.
 
 ## footer.tex
 Finally, let's look at `footer.tex`. The footer is incredibly simple compared to the header. I use the 
-`includegraphics` commands to include links to my GitHub and LinkedIn profile as pictures of thier logos
+`includegraphics` commands to include links to my GitHub and Linkedin profile as pictures of their logos
 and and a closing `end{document}`.
 
 ## Conclusion
 If that was too much to follow, or you just want to crib off an example, I have luckily for you created
-a [template repository](https://github.com/steveno/resume_template) where you can find everything I covered here.  
+a [template repository](https://github.com/steveno/resume_template) where you can find everything I covered here.
