@@ -21,6 +21,7 @@ markdown: redcarpet
 # The following items will not be processed, by default.
 exclude:
   - post.sh
+  - start_demo.sh
   - Gemfile
   - Gemfile.lock
   - .jekyll-cache/
