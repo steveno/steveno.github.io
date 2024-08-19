@@ -5,8 +5,9 @@ layout: default
 
 {{ content }}
 
-<p><small>Published: {{ page.date | date_to_string }}
-{% if page.lastupdated %}
- • Last Updated: {{ page.lastupdated | date_to_string }}
+<p style="color: #828282"><small>Published: {{ page.date | date: "%b %d, %Y" }}
+{% if page.last_updated %}
+ • Last Updated: {{ page.last_updated | date: "%b %d, %Y" }}
 {% endif %}
 </small></p>
+
