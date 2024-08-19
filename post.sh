@@ -18,6 +18,7 @@ cat > _posts/"$YEAR"/"$MONTH"/"$DATE"-"$SLUG".md <<EOL
 ---
 title: "$TITLE"
 date: $DATE
+categories:
 - 
 keywords: 
 description: ""
