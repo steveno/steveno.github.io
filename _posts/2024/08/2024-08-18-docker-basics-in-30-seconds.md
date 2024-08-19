@@ -1,7 +1,6 @@
 ---
 title: "Docker Basics in 30 seconds"
 date: 2024-08-18
-categories:
 - 
 keywords: docker podman containers
 description: "Docker Basics in 30 seconds"
@@ -41,16 +40,16 @@ quiz you on.
 ## Docker Commands
 
 ### Working with images
-* **Pull** - This pulls down and an existing image from DockerHub or from another repository of your
+* **[Pull](https://docs.podman.io/en/latest/markdown/podman-pull.1.html)** - This pulls down and an existing image from DockerHub or from another repository of your
 choice.
-* **Build** - This builds the image, using a `Dockerfile`, that you can use to create containers
+* **[Build](https://docs.podman.io/en/latest/markdown/podman-build.1.html)** - This builds the image, using a `Dockerfile`, that you can use to create containers
 from.
 
 ### Working with containers
-* **Create** - Creates a new container from an existing image. It does _not_ start it though. If you
+* **[Create](https://docs.podman.io/en/latest/markdown/podman-create.1.html)** - Creates a new container from an existing image. It does _not_ start it though. If you
 check the status of your containers, your newly created container show the status of "created."
-* **Start** - This starts your container. With physical computers you would call this `boot`
+* **[Start](https://docs.podman.io/en/latest/markdown/podman-start.1.html)** - This starts your container. With physical computers you would call this `boot`
 or something similar, but `start` actually makes more sense in this context (in my opinion).
-* **Run** - This one really confused me, because all the tutorials for Docker use this command
+* **[Run](https://docs.podman.io/en/latest/markdown/podman-run.1.html)** - This one really confused me, because all the tutorials for Docker use this command
 and leave out the previous two. This both `create`s your container and `start`s it in one command.
 

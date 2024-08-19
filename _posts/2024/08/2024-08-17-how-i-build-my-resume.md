@@ -1,7 +1,6 @@
 ---
 title: "How I Build my Resume"
 date: 2024-08-17
-categories:
 - 
 keywords: resume latex
 description: "How I build my resume using LaTeX"
