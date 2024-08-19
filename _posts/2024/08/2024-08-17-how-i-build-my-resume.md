@@ -5,7 +5,7 @@ categories:
 - 
 keywords: resume latex
 description: "How I build my resume using LaTeX"
-lastupdated: 2024-08-18
+last_updated: 2024-08-18
 ---
 
 * TOC
