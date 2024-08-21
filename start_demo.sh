@@ -22,5 +22,5 @@ rm -rf _site
 rm -rf .jekyll_cache
 iterate "_posts"
 
-bundle exec jekyll serve
+bundle exec jekyll serve --drafts
 
