@@ -20,7 +20,8 @@ markdown: redcarpet
 # Exclude from processing.
 # The following items will not be processed, by default.
 exclude:
-  - post.sh
+  - new_draft.sh
+  - new_post.sh
   - start_demo.sh
   - Gemfile
   - Gemfile.lock
