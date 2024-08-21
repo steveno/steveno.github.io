@@ -31,3 +31,5 @@ last_updated:
 ## 
 
 EOL
+
+vim _posts/"$YEAR"/"$MONTH"/"$DATE"-"$SLUG".md
