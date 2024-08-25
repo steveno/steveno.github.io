@@ -12,3 +12,5 @@ group :jekyll_plugins do
 end
 
 gem "webrick", "~> 1.8"
+
+gem "jekyll-mastodon_webfinger", "~> 1.0"

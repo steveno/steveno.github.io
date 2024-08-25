@@ -11,10 +11,15 @@ timezone: America/New_York
 
 # Build settings
 theme: minima
-plugins:
-  - jekyll-feed
 highlighter: pygments
 markdown: redcarpet
+plugins:
+  - jekyll-feed
+  - jekyll/mastodon_webfinger
+
+mastodon:
+  username: steveno
+  instance: mastodon.social
 
 # Exclude from processing.
 # The following items will not be processed, by default.
