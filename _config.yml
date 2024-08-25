@@ -15,11 +15,10 @@ highlighter: pygments
 markdown: redcarpet
 plugins:
   - jekyll-feed
-  - jekyll/mastodon_webfinger
 
 mastodon:
-  username: steveno
   instance: mastodon.social
+  username: steveno
 
 # Exclude from processing.
 # The following items will not be processed, by default.
