@@ -3,7 +3,7 @@ title: "How I Hunt for Jobs"
 date: 2024-08-23
 categories:
 - 
-keywords: 
+keywords: [career, resume]
 description: "A brief look at how I hunt for a new job"
 last_updated:
 ---

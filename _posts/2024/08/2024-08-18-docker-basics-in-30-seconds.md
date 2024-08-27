@@ -3,7 +3,7 @@ title: "Docker Basics in 30 seconds"
 date: 2024-08-18
 categories:
 - 
-keywords: docker podman containers
+keywords: [docker, podman, containers]
 description: "Docker Basics in 30 seconds"
 last_updated: 2024-08-19
 ---
