@@ -17,8 +17,8 @@ plugins:
   - jekyll-feed
 
 mastodon:
-  instance: mastodon.social
-  username: steveno
+  - username: steveno
+    instance: mastodon.social
 
 # Exclude from processing.
 # The following items will not be processed, by default.
