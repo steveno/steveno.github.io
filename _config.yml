@@ -5,9 +5,14 @@ description: >-
   anything else of interest.
 baseurl: ""
 url: ""
+timezone: America/New_York
+
+# Social links
 github_username:  steveno
 linkedin_username: stevenoliver
-timezone: America/New_York
+mastodon:
+  - username: steveno
+    instance: mastodon.social
 
 # Build settings
 theme: minima
@@ -16,9 +21,6 @@ markdown: redcarpet
 plugins:
   - jekyll-feed
 
-mastodon:
-  - username: steveno
-    instance: mastodon.social
 
 # Exclude from processing.
 # The following items will not be processed, by default.
