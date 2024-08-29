@@ -11,13 +11,12 @@ last_updated:
 * TOC
 {:toc}
 
-## Introduction
-
 I presently am finding myself in the unenviable position of needing to look for
 a new job. It is by no means an enjoyable task, and it is one that has taken me
 quite a while to really get the hang of. While I have never worked as a
 recruiter, I have, in my opinion, acquired quite a bit of wisdom about how this
 process works (in the United States anyway).
+<!--more-->
 
 ## Process
 

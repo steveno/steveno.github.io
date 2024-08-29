@@ -11,13 +11,12 @@ last_updated: 2024-08-19
 * TOC
 {:toc}
 
-## Introduction
-
 When I first started learning Docker, it was really baffling for me. I thought
 I understood Linux and it's terminology pretty well, but Docker really threw me
 for a loop. In hindsight it feels pretty silly, but at the time it was serious
-    and I was lost. So this is a quick primer for anyone else who is learning
-    Docker and confused by all the new words.
+and I was lost. So this is a quick primer for anyone else who is learning
+Docker and confused by all the new words.
+<!--more-->
 
 ## Basic Terminology
 

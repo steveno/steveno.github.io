@@ -11,12 +11,11 @@ last_updated: 2024-08-19
 * TOC
 {:toc}
 
-## Introduction
-
 I am really proud of my resume. I have been using the same template for over a
 decade now, but compared to 90% of the resumes I see in the wild mine still
 ranks among some of best looking in my opinion. How do I do it? Let's take a
 look!
+<!--more-->
 
 ## Tools
 

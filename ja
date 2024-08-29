@@ -65,7 +65,6 @@ function _write_file() {
         echo "* TOC"
         echo "{:toc}"
         echo
-        echo "##"
     } >> "$1";
 }
 

@@ -6,6 +6,8 @@ description: >-
 baseurl: ""
 url: ""
 timezone: America/New_York
+show_excerpts: true
+excerpt_separator: <!--more-->
 
 # Social links
 github_username:  steveno
