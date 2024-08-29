@@ -18,6 +18,6 @@ libbalistica on the backend.
 
 ### [pólvora](https://github.com/fusilero/polvora)
 
-pólvora originated a reloading database. Sadly the project never reached a
+pólvora originated as a reloading database. Sadly the project never reached a
 workable state.
  
