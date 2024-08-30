@@ -18,7 +18,7 @@ least language families. The first is the
 moved to
 [C#](https://learn.microsoft.com/en-us/dotnet/csharp/?WT.mc_id=dotnet-35129-website),
 and then ended up going back to VB.NET. I have spent more time than I would
-like to admit to dabling in VBA, but honestly, I don't really count that.
+like to admit to dabbling in VBA, but honestly, I don't really count that.
 <!--more-->
 Then I started a new job and picked up [python](https://www.python.org/). I
 have been using python professionally ever since. Is that all I know? Of
@@ -31,10 +31,10 @@ in the same "family." I put that in quotes because a lot of people will want to
 quibble about me lumping .NET, python, Go, and C++ in a family. In _a lot_ of
 ways they're not, but they all "feel" about the same. They're mostly procedural,
 object oriented, and most of that group also uses or borrows heavily from C's
-sytax.
+syntax.
 
 I want to teach myself something different. What are some "different" languages
-in my opinion? Scheme and Lisp immediatly come to mind for me. While I have
+in my opinion? Scheme and Lisp immediately come to mind for me. While I have
 immense respect for both of them, and would like to, at some point, learn to
 write at least one of those two effectively, today isn't that day. Instead I'm
 looking to go fully functional. So that brings me to **OCaml**.
@@ -43,13 +43,13 @@ looking to go fully functional. So that brings me to **OCaml**.
 
 I'm picky about how I install software. I spent two days worth of free time
 fighting with [Gerbil Scheme](https://cons.io/) to make it install cleanly
-(for my definition of clean). I evetually gave up and decieded to skip learning
+(for my definition of clean). I eventually gave up and decided to skip learning
 Gerbil altogether.
 
 Generally speaking, I followed the
 [instructions](https://dev.realworldocaml.org/install.html) laid out by the
 book [Real World OCaml](https://dev.realworldocaml.org/) when setting up `opam`
-and `ocaml`. I did deviate a little to make sure everything was "tiddy" when I
+and `ocaml`. I did deviate a little to make sure everything was "tidy" when I
 finished which I will cover in detail here.
 
 First, I went [here](https://opam.ocaml.org/doc/Install.html#Binary-distribution)
@@ -118,7 +118,7 @@ configuration for you or not. I picked yes the first time I did this, and now
 that I have it integrated into my bash configuration the way I want it, I pick
 no.
 
-I went ahead and installed the recomended packages it talks about. I don't
+I went ahead and installed the recommended packages it talks about. I don't
 really know what I am doing yet, so it seems like a safe bet for a learner.
 
 ```bash

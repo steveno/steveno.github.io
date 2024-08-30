@@ -5,7 +5,7 @@ categories:
 - 
 keywords: [career, resume]
 description: "A brief look at how I hunt for a new job"
-last_updated:
+last_updated: 2024-08-29
 ---
 
 * TOC
@@ -25,7 +25,7 @@ Monster, Indeed, Dice, etc. have never really worked out well for me. I am sure
 there are good jobs on there, and that people do get good jobs from those sites
 on a daily basis, but that's never been me. I find that more often than not
 sites like those are overrun with third party recruiters. The posting that
-aren't third party recruiters recieve _thousands_ of applications, a lot of
+aren't third party recruiters receive _thousands_ of applications, a lot of
 which, again I am guessing, are automatically submitted by bots.
 
 I instead stick to applying to jobs directly on company websites. This
