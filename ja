@@ -141,6 +141,7 @@ function promote_draft() {
 
     # Update the file name and move the draft to the posts directory
     sub_string=$(echo "$draft" | sed -E "s/20[0-9]{2}-[0-9]{2}-[0-9]{2}-//g")
+    mkdir -p _posts/"$YEAR"/"$MONTH"
     mv _drafts/"$draft" _posts/"$YEAR"/"$MONTH"/"$DATE"-"$sub_string"
 
     printf "\n%s was promoted to a post\n" "$DATE"-"$sub_string"
