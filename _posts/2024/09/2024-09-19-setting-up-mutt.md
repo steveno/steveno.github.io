@@ -11,15 +11,15 @@ last_updated:
 * TOC
 {:toc}
 
-I have been using Gmail since college. I don't know exactly, but it was
-sometime in the early 2000s. [Mutt](http://www.mutt.org/) has been around this
-whole time and yet I have never used it. I just always assumed I would not like
-it because it could not display pictures. I mean, how many emails do you get,
-especially that are not tech related, that do not include images?
+I have been using Gmail since college. I don't know exactly, but it was sometime
+in the early 2000s. [Mutt](http://www.mutt.org/) has been around this whole time
+and yet I have never used it. I just always assumed I would not like it because
+it could not display pictures. I mean, how many emails do you get, especially
+that are not tech related, that do not include images? 
 <!--more-->
 I will admit I did install it one time, I can't remember if I was able to
-actually get it working or not, but either way, I removed it the
-same day and didn't look back. Until this week.
+actually get it working or not, but either way, I removed it the same day and
+didn't look back. Until this week.
 
 ## Motivation
 
@@ -40,8 +40,8 @@ sudo apt install mutt
 ```
 
 I'm sure there are other ways to do it, that may even get me a newer version,
-but Mutt is a pretty old, and stable, piece of software. Whatever version
-Ubuntu gives me is almost certainly good enough.
+but Mutt is a pretty old, and stable, piece of software. Whatever version Ubuntu
+gives me is almost certainly good enough.
 
 ## Configuration
 
@@ -71,13 +71,13 @@ you an easy to follow How To
 
 The tricky part is how to store said password on your hard drive, or worse, in
 your dotfiles repository without sharing your email with the entire world? This,
-again, is where GPG comes into play... except I did not want to use GPG for this, I
-wanted to use [age](https://github.com/FiloSottile/age). Why? Because
+again, is where GPG comes into play... except I did not want to use GPG for
+this, I wanted to use [age](https://github.com/FiloSottile/age). Why? Because
 [chezmoi](https://www.chezmoi.io/) uses age, and I wanted to minimize the amount
-of different tools I have to keep track of in my head. In my personal opinion, age is also
-significantly easier to use. Which leaves you with, why did I care about GPG in
-the first place? Because age specifically states it was not designed to be used
-with email.
+of different tools I have to keep track of in my head. In my personal opinion,
+age is also significantly easier to use. Which leaves you with, why did I care
+about GPG in the first place? Because age specifically states it was not
+designed to be used with email.
 
 The first thing I did was setup age to be used with chezmoi. That's pretty [well
 documented](https://www.chezmoi.io/user-guide/encryption/age/), and a bit off
@@ -113,10 +113,10 @@ source "age -d -i /home/steveno/.config/chezmoi/key.txt ~/.config/mutt/passwords
 ```
 
 ### Macro to delete emails
-A convenience feature I implemented was writing a macro to have Mutt delete emails
-in a way that was similar to how GMail does so on its website. This was
-surprisingly easy to do. StackOverflow was of little help honestly. The
-method I ended up figuring out is simpler than anything they had.
+A convenience feature I implemented was writing a macro to have Mutt delete
+emails in a way that was similar to how GMail does so on its website. This was
+surprisingly easy to do. StackOverflow was of little help honestly. The method I
+ended up figuring out is simpler than anything they had.
 
 ```text
 macro index,pager d "<delete-message><sync-mailbox><enter>"
@@ -135,7 +135,11 @@ set pgp_replyencrypt = yes
 
 ### Other
 
-The last bits of my config I copied wholesale from a blog I have since lost track of. The same bits can be found just about everywhere. Similar to vim when Neovim was started, Mutt feels old and in desperate need of a refresh. Similar to Neovim, doing things like making extremely popular options the default, would probably go a long way.
+The last bits of my config I copied wholesale from a blog I have since lost
+track of. The same bits can be found just about everywhere. Similar to vim when
+Neovim was started, Mutt feels old and in desperate need of a refresh. Similar
+to Neovim, doing things like making extremely popular options the default, would
+probably go a long way.
 
 ```text
 set ssl_force_tls = yes
@@ -153,5 +157,12 @@ auto_view text/html
 
 ## Final Words
 
-I really like Mutt so far. I am going to, at the very least, keep it installed and keep using it. There are some things I haven't quite figured out that bother me. The biggest being how to "archive" messages. Gmail is a bit strange as an email client because folders and labels are synonymous. So moving a message from the inbox to your "All mail" folder is not an obvious task. If you Google that you'll probably be a bit horrified to see the answers similar to how I was. Regardless, I really like Mutt and I think you're doing yourself a disservice if you don't try it too.
+I really like Mutt so far. I am going to, at the very least, keep it installed
+and keep using it. There are some things I haven't quite figured out that bother
+me. The biggest being how to "archive" messages. Gmail is a bit strange as an
+email client because folders and labels are synonymous. So moving a message from
+the inbox to your "All mail" folder is not an obvious task. If you Google that
+you'll probably be a bit horrified to see the answers similar to how I was.
+Regardless, I really like Mutt and I think you're doing yourself a disservice if
+you don't try it too.
 
