@@ -2,8 +2,20 @@
 
 // Define defaults for each variable.
 
-$base-font-family: Charter, Bitstream Charter, serif;
-$base-font-size:   18px !default;
+
+@mixin font($font-family, $font-file) {
+  @font-face {
+    font-family: $font-family;
+    src: url($font-file+'.eot');
+    src: url($font-file+'.eot?#iefix') format('embedded-opentype'),
+         url($font-file+'.woff') format('woff'),
+         url($font-file+'.ttf') format('truetype'),
+  }
+}
+@include font('CormorantGaramond', '/assets/fonts/CormorantGaramond-Regular');
+
+$base-font-family: CormorantGaramond;
+$base-font-size:   22px !default;
 $base-font-weight: 400 !default;
 $small-font-size:  $base-font-size * 0.875 !default;
 $base-line-height: 1.3 !default;
@@ -21,10 +33,10 @@ $grey-color-dark:  darken($grey-color, 25%) !default;
 $table-text-align: left !default;
 
 // Width of the content area
-$content-width:    800px !default;
+$content-width:    80ch !default;
 
-$on-palm:          600px !default;
-$on-laptop:        800px !default;
+$on-palm:          60ch !default;
+$on-laptop:        80ch !default;
 
 // Use media queries like this:
 // @include media-query($on-palm) {
