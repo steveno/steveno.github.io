@@ -26,6 +26,7 @@ body {
   display: flex;
   min-height: 100vh;
   flex-direction: column;
+  text-rendering: optimizeLegibility;
 }
 
 
@@ -148,7 +149,8 @@ blockquote {
  */
 pre,
 code {
-  @include relative-font-size(0.675);
+  @include relative-font-size(0.6);
+  font-family: Hack, monospace;
   border: 1px solid $grey-color-light;
   border-radius: 3px;
   background-color: #eef;
