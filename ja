@@ -57,7 +57,7 @@ function _write_file() {
         echo "date: $DATE"
         echo "categories:"
         echo "-"
-        echo "keywords:"
+        echo "keywords: []"
         echo "description: \"\""
         echo "last_updated:"
         echo "---"
@@ -65,6 +65,9 @@ function _write_file() {
         echo "* TOC"
         echo "{:toc}"
         echo
+        echo "<!--more-->"
+        echo
+        echo "## "
     } >> "$1";
 }
 
