@@ -21,6 +21,10 @@ theme: minima
 plugins:
   - jekyll-feed
 
+collections:
+  partof:
+    output: true
+
 # Exclude the following from processing
 exclude:
   - README.md

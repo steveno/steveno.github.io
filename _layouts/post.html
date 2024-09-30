@@ -17,11 +17,9 @@ layout: default
 </div>
 
 <div>
-    {% for keyword in page.keywords %}
-        {% assign seealso_path = "/liquid/" | append: keyword %}
-        {% assign file = site.static_files | where: "path", seealso_path | first %}
-        {% if file %} 
-            {% comment %} TODO {% endcomment %}
-        {% endif %}
-    {% endfor %}
+{% for keyword in site.partof %}
+    {% if page.keywords contains keyword.name %}
+        {{ keyword.content | markdownify }}
+    {% endif %}
+{% endfor %}
 </div>
