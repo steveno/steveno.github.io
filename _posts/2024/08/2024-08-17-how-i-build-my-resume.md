@@ -1,9 +1,9 @@
 ---
 title: "How I Build my Resume"
 date: 2024-08-17
+tags: [career, resume, latex]
 categories:
 - 
-keywords: [career, resume, latex]
 description: "How I build my resume using LaTeX"
 last_updated: 2024-08-19
 ---

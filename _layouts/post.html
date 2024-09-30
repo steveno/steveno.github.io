@@ -18,7 +18,7 @@ layout: default
 
 <div>
 {% for keyword in site.partof %}
-    {% if page.keywords contains keyword.name %}
+    {% if page.tags contains keyword.name %}
         {{ keyword.content | markdownify }}
     {% endif %}
 {% endfor %}

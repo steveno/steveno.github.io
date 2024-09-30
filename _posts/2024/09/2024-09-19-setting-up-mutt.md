@@ -1,9 +1,9 @@
 ---
 title: Setting up Mutt
 date: 2024-09-19
+tags: [mutt, email]
 categories:
 -
-keywords: [mutt, email]
 description: "How I setup Mutt as a first time user"
 last_updated:
 ---

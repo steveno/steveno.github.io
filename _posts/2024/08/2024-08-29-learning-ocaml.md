@@ -1,9 +1,9 @@
 ---
 title: Learning OCaml
 date: 2024-08-29
+tags: [ocaml, howto]
 categories:
 -
-keywords: [ocaml, howto]
 description: "Getting started with OCaml"
 last_updated:
 ---
