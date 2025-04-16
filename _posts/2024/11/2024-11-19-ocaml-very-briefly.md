@@ -5,15 +5,18 @@ tags: ["ocaml"]
 categories:
 -
 description: "A very brief overview of OCaml"
-last_updated:
+last_updated: 2025-04-16
+quote: "Isaiah 58:11 - The LORD will guide you always; he will satisfy your
+needs in a sun-scorched land and will strengthen your frame. You will be like a
+well-watered garden, like a spring whose waters never fail."
 ---
 
 * TOC
 {:toc}
 
-In a my previous post we installed OCaml. I was pedantic about it, so it wasn't
+In a previous post we installed OCaml. I was pedantic about it, so it wasn't
 as easy as just using `apt` or `dnf`. Now that we have it installed and working,
-let's take a look at OCaml and try to get comfortable with the basics.
+let's take a look at OCaml, and try to get comfortable with the basics.
 <!--more-->
 
 ## Operators
@@ -48,8 +51,7 @@ Error: This expression has type float/2 but an expression was expected of type
 
 Uh oh. We broke it. I do not really understand that error message. I do not know
 why the type is `float` divided by `2`. It also tells me "Definition of type
-float/2" but doesn't actually show me the definition. Maybe I'm misunderstanding
-what it is trying to tell me?
+float/2" but doesn't actually show me the definition.
 
 Anyway, we can fix this using two more _mandatory_ periods.
 
@@ -58,10 +60,10 @@ Anyway, we can fix this using two more _mandatory_ periods.
 - : float = 8.14
 ```
 
-Note the period after the `+` sign and after `5`. Let's try some variables. The
-reason for these variables is due to OCaml being functional. Instead of
+Note the period after the `+` sign and after the `5`. Let's try some variables.
+The reason for these variables is due to OCaml being functional. Instead of
 overloading the plus sign to work for integers and floats, they instead have a
-seperate `+.` to work floats.
+seperate `+.` to work with floats.
 
 ## Variables and Functions
 
@@ -70,7 +72,7 @@ seperate `+.` to work floats.
 val x : int = 3
 ```
 
-Nice, so we created a variable `x` and set it's value to `3`. There are of
+Nice! We created a variable `x` and set it's value to `3`. There are of
 course rules about what variables names can be. For example, they cannot start
 with a capital letter or a number. Every language has little rules like this, so
 I am going to skip that for now. Rules like that have never been a problem for
@@ -98,4 +100,4 @@ statement from the compiler has changed. It now reads `val ___` instead of just
 a `-`. It also prints the types of the input and the output of the function. In
 our case it's always `int`.
 
-
+In the next post we'll take a further look at how things work in OCaml.

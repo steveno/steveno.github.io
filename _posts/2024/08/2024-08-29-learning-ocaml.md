@@ -5,7 +5,10 @@ tags: [ocaml, howto]
 categories:
 -
 description: "Getting started with OCaml"
-last_updated:
+last_updated: 2025-04-08
+quote: "Galatians 5:22-23 - But the fruit of the Spirit is love, joy, peace,
+longsuffering, kindness, goodness, faithfulness, gentleness, self-control.
+Against such there is no law."
 ---
 
 * TOC
@@ -81,13 +84,13 @@ everything there instead, so let's do that.
 export OPAMROOT="/home/steveno/.local/share/opam"
 ```
 
-Now, going back to following the directions from the book, we initialize opam.
+Going back to following the directions from the book, we initialize opam.
 
 ```bash
 opam --init
 ```
 
-Now, if you run that and you get this message about bwrap being not permitted,
+If you run that and you get this message about bwrap being not permitted,
 and it asking you if you want to disable sandboxing, _and_ you're running
 Ubuntu, this fix worked for me.
 

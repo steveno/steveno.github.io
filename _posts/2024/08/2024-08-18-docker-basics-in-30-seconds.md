@@ -5,7 +5,9 @@ tags: [docker, podman, containers]
 categories:
 - 
 description: "Docker Basics in 30 seconds"
-last_updated: 2024-08-19
+last_updated: 2025-04-08
+quote: "Romans 8:28 - And we know that all things work together for good to
+those who love God, to those who are the called according to His purpose."
 ---
 
 * TOC
@@ -57,10 +59,10 @@ physical things, like a picture or a sketch that you drew.
 
 ### Working with containers
 
-* **[Create](https://docs.podman.io/en/latest/markdown/podman-create.1.html)**
-  - Creates a new container from an existing image. It does _not_ start it
-    though. If you check the status of your containers, your newly created
-    container show the status of "created."
+* **[Create](https://docs.podman.io/en/latest/markdown/podman-create.1.html)** -
+  Creates a new container from an existing image. It does _not_ start it
+  though. If you check the status of your containers, your newly created
+  container will show the status of "created."
 * **[Start](https://docs.podman.io/en/latest/markdown/podman-start.1.html)** -
   This starts your container. With physical computers you would call this
   `boot` or something similar, but `start` actually makes more sense in this

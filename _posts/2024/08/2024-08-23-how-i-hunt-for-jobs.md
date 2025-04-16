@@ -6,6 +6,8 @@ categories:
 - 
 description: "A brief look at how I hunt for a new job"
 last_updated: 2024-08-29
+quote: "Jeremiah 29:11 - For I know the thoughts that I think toward you, says
+the Lord, thoughts of peace and not of evil, to give you a future and a hope."
 ---
 
 * TOC
@@ -24,7 +26,7 @@ For starters, I generally avoid job aggregators. Your typical fare like
 Monster, Indeed, Dice, etc. have never really worked out well for me. I am sure
 there are good jobs on there, and that people do get good jobs from those sites
 on a daily basis, but that's never been me. I find that more often than not
-sites like those are overrun with third party recruiters. The posting that
+sites like those are overrun with third party recruiters. The postings that
 aren't third party recruiters receive _thousands_ of applications, a lot of
 which, again I am guessing, are automatically submitted by bots.
 

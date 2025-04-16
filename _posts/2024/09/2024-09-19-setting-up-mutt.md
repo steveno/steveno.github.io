@@ -5,7 +5,10 @@ tags: [mutt, email]
 categories:
 -
 description: "How I setup Mutt as a first time user"
-last_updated:
+last_updated: 2025-04-16
+quote: "Hebrews 10:25 - not forsaking the assembling of ourselves together, as
+is the manner of some, but exhorting one another, and so much the more as you
+see the Day approaching."
 ---
 
 * TOC
@@ -82,11 +85,11 @@ designed to be used with email.
 The first thing I did was setup age to be used with chezmoi. That's pretty [well
 documented](https://www.chezmoi.io/user-guide/encryption/age/), and a bit off
 topic for this post, so I won't go into it here. First, create your passwords
-file to include in your muttrc. I simply named mine `password`.
+file to include in your `muttrc`. I simply named mine `password`.
 
 ```text
 # Imap settings
-set imap_pass = "you app password"
+set imap_pass = "your app password"
 
 # Smtp settings
 set smtp_pass = "your app password"

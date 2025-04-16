@@ -4,17 +4,16 @@ layout: default
 
 <h1>{{ page.title }}</h1>
 
-{{ content }}
-
 <div>
-<p style="color: #828282">
-    <small>Published: {{ page.date | date: "%b %d, %Y" }}
-        {% if page.last_updated %}
-            • Last Updated: {{ page.last_updated | date: "%b %d, %Y" }}
-        {% endif %}
-    </small>
+<p style="font-style: italic; color: #828282">
+Published: {{ page.date | date: "%b %d, %Y" }}
+{% if page.last_updated %}
+    • Last Updated: {{ page.last_updated | date: "%b %d, %Y" }}
+{% endif %}
 </p>
 </div>
+
+{{ content }}
 
 <div>
 {% for keyword in site.partof %}
@@ -22,4 +21,11 @@ layout: default
         {{ keyword.content | markdownify }}
     {% endif %}
 {% endfor %}
+</div>
+
+<div>
+</br>
+<p style="text-align: center; font-style: italic; color: #828282">
+{{ page.quote }}
+</p>
 </div>

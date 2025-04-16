@@ -5,7 +5,8 @@ tags: [career, resume, latex]
 categories:
 - 
 description: "How I build my resume using LaTeX"
-last_updated: 2024-08-19
+last_updated: 2025-04-16
+quote: "John 14:18 – I will not leave you as orphans; I will come to you."
 ---
 
 * TOC
