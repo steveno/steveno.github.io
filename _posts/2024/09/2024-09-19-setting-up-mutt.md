@@ -106,7 +106,7 @@ age-encryption.org/v1
 -> X25519 1/7OSVyRVCbCR1geEVmih4EZKsGmZnc9GkDk+NRLDio
 LsQSBcuwCO+7UZtsrG5G/CVuTQOjrYkI6/K1XeNa93s
 --- d57B50H1L5J+URqkt+x5AZLS1I7MoKhb/umk73TaMUQ
-ÈÒ=ïÅ»hùÌ¶¢`£0¬SÁPóÁÀÑ|ÂHóÍ'»æ
+<including the rest of this file breaks my Jekyll RSS feed>
 ```
 
 Finally, you can add this line to your `muttrc` to have Mutt decrypt your
