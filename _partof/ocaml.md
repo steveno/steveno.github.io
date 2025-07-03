@@ -2,12 +2,6 @@
 name: ocaml
 ---
 
-<br/>
-
----
-
-<br/>
-
 #### Part of a series on OCaml
 
 1. [Learning OCaml](https://steveno.github.io/2024/08/29/learning-ocaml.html)
