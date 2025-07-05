@@ -4,18 +4,16 @@ layout: default
 
 <h1>{{ page.title }}</h1>
 
-<div>
-<p class="dates">
-Published {{ page.date | date: "%b %d, %Y" }}
-{% if page.last_updated %}
-    • Updated {{ page.last_updated | date: "%b %d, %Y" }}
-{% endif %}
-</p>
-</div>
-
 {{ content }}
 
+<p class="dates">
+{% if page.last_updated %}
+Updated {{ page.last_updated | date: "%b %d, %Y" }}
+{% else %}
 </br>
+{% endif %}
+</p>
+
 <hr>
 </br>
 
@@ -25,9 +23,7 @@ Published {{ page.date | date: "%b %d, %Y" }}
         {{ keyword.content | markdownify }}
     {% endif %}
 {% endfor %}
-</div>
 
-<div>
 <p class="quote">
 {{ page.quote }}
 </p>
