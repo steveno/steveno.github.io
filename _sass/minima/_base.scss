@@ -54,7 +54,7 @@ main {
 .quote {
   text-align: center;
   font-style: italic;
-  color: #828282;
+  color: $grey-color;
   font-size: $small-font-size;
 }
 
@@ -64,7 +64,7 @@ main {
  */
 .dates {
   font-style: italic;
-  color: #828282;
+  color: $grey-color;
   font-size: $small-font-size;
 }
 
