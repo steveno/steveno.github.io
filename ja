@@ -55,11 +55,12 @@ function _write_file() {
         echo "---" 
         echo "title: $TITLE"
         echo "date: $DATE"
+        echo "tags: []"
         echo "categories:"
         echo "-"
-        echo "keywords: []"
         echo "description: \"\""
         echo "last_updated:"
+        echo "quote:"
         echo "---"
         echo
         echo "* TOC"
