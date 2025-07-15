@@ -10,9 +10,6 @@ quote: "Jeremiah 29:11 - For I know the thoughts that I think toward you, says
 the Lord, thoughts of peace and not of evil, to give you a future and a hope."
 ---
 
-* TOC
-{:toc}
-
 I presently am finding myself in the unenviable position of needing to look for
 a new job. It is by no means an enjoyable task, and it is one that has taken me
 quite a while to really get the hang of. While I have never worked as a

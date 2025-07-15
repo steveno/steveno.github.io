@@ -63,9 +63,6 @@ function _write_file() {
         echo "quote:"
         echo "---"
         echo
-        echo "* TOC"
-        echo "{:toc}"
-        echo
         echo "<!--more-->"
         echo
         echo "## "

@@ -10,9 +10,6 @@ quote: "Romans 8:28 - And we know that all things work together for good to
 those who love God, to those who are the called according to His purpose."
 ---
 
-* TOC
-{:toc}
-
 When I first started learning Docker, it was really baffling for me. I thought
 I understood Linux and it's terminology pretty well, but Docker really threw me
 for a loop. In hindsight it feels pretty silly, but at the time it was serious

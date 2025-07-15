@@ -11,9 +11,6 @@ longsuffering, kindness, goodness, faithfulness, gentleness, self-control.
 Against such there is no law."
 ---
 
-* TOC
-{:toc}
-
 I have spent my entire career basically using two major languages; or at 
 least language families. The first is the
 [.NET](https://dotnet.microsoft.com/en-us/) languages. I started with

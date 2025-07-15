@@ -11,9 +11,6 @@ needs in a sun-scorched land and will strengthen your frame. You will be like a
 well-watered garden, like a spring whose waters never fail."
 ---
 
-* TOC
-{:toc}
-
 In a previous post we installed OCaml. I was pedantic about it, so it wasn't
 as easy as just using `apt` or `dnf`. Now that we have it installed and working,
 let's take a look at OCaml, and try to get comfortable with the basics.

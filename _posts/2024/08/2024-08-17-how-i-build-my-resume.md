@@ -9,9 +9,6 @@ last_updated: 2025-04-16
 quote: "John 14:18 – I will not leave you as orphans; I will come to you."
 ---
 
-* TOC
-{:toc}
-
 I am really proud of my resume. I have been using the same template for over a
 decade now, but compared to 90% of the resumes I see in the wild mine still
 ranks among some of best looking in my opinion. How do I do it? Let's take a

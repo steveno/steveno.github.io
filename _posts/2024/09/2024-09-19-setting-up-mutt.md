@@ -11,9 +11,6 @@ is the manner of some, but exhorting one another, and so much the more as you
 see the Day approaching."
 ---
 
-* TOC
-{:toc}
-
 I have been using Gmail since college. I don't know exactly, but it was sometime
 in the early 2000s. [Mutt](http://www.mutt.org/) has been around this whole time
 and yet I have never used it. I just always assumed I would not like it because
