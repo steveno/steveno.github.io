@@ -2,7 +2,6 @@
 
 // Define defaults for each variable.
 
-
 @mixin font($font-family, $font-file) {
   @font-face {
     font-family: $font-family;
@@ -17,8 +16,8 @@
 
 $base-font-family: CormorantGaramond;
 $base-font-size:   24px !default;
-$base-font-weight: 400 !default;
-$small-font-size:  $base-font-size * 0.875 !default;
+$base-font-weight: 450 !default;
+$small-font-size:  $base-font-size * 0.800 !default;
 $base-line-height: 1.3 !default;
 
 $spacing-unit:     30px !default;
