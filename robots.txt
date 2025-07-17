@@ -1,0 +1,8 @@
+# *
+User-agent: *
+
+# Host
+Host: https://steveno.github.io/
+
+# Sitemaps
+Sitemap: https://steveno.github.io/sitemap.xml
