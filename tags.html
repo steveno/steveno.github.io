@@ -1,0 +1,24 @@
+---
+layout: default
+---
+
+{% assign sortedTags = site.tags | sort %}
+{% for tag in sortedTags %}
+    <h2 id="{{ tag[0] }}">{{ tag[0] | replace: "-", "&nbsp;" }}</h2>
+
+    <table>
+        <tr>
+            <th></th>
+            <th style="text-align: right">Published</th>
+            <th style="text-align: right">Updated</th>
+        </tr>
+    {% for post in tag[1] %}
+        <tr>
+            <td><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></td>
+            <td style="text-align: right">{{ post.date | date_to_long_string }}</td>
+            <td style="text-align: right">{{ post.last_updated | date_to_long_string }}</td>
+        </tr>
+    {% endfor %}
+    </table>
+{% endfor %}
+
