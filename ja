@@ -19,7 +19,7 @@ TITLE=""
 SLUG=""
 
 # Recursively drop through a directory and
-# delete and sub-directory named "_posts"
+# delete any sub-directory named "_posts"
 #
 # Parameters
 # 1 Directory to recurisively decend through
