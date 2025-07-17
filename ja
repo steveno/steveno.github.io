@@ -159,7 +159,11 @@ function start_demo() {
 
 # Kill the demo server
 function stop_demo() {
-    pkill -f jekyll
+    if pkill -f jekyll; then
+        printf "${RED}Killed${NC}\n"
+    else
+        printf "${GREEN}Nothing to do${NC}\n"
+    fi
 }
 
 # Print an error for an unknown command line arg
