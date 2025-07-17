@@ -7,8 +7,15 @@ permalink: /colophon/
 ### Technical
 
 This blog is hosted using [GitHub pages](https://pages.github.com). I use
-[Jekyll](https://jekyllrb.com) to generate the content and the theme is a
-slightly modified version of the default.
+[Jekyll](https://jekyllrb.com) to generate everything.
+
+### Theme
+
+I am using a slightly modified version of default theme minima. My modifications
+to the theme are pretty minor. A few minor changes in the `_scss` directory,
+like colors and font sizes. I am using [CormorantGaramond](https://fonts.google.com/specimen/Cormorant+Garamond)
+as the main font and [Hack](https://github.com/source-foundry/Hack) for all of
+the code blocks.
 
 ### License
 
