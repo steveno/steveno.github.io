@@ -9,14 +9,14 @@ layout: default
     <table>
         <tr>
             <th></th>
-            <th style="text-align: right">Published</th>
-            <th style="text-align: right">Updated</th>
+            <th>Published</th>
+            <th>Updated</th>
         </tr>
     {% for post in tag[1] %}
         <tr>
-            <td><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></td>
-            <td style="text-align: right">{{ post.date | date_to_long_string }}</td>
-            <td style="text-align: right">{{ post.last_updated | date_to_long_string }}</td>
+            <td style="text-align: left"><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></td>
+            <td>{{ post.date | date_to_long_string }}</td>
+            <td>{{ post.last_updated | date_to_long_string }}</td>
         </tr>
     {% endfor %}
     </table>
