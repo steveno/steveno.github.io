@@ -3,11 +3,11 @@ email: oliver.steven@gmail.com
 description: >-
   Steven Oliver's homepage. I write about software engineering and
   anything else of interest.
-baseurl: ""
-url: ""
+url: https://steveno.github.io
 timezone: America/New_York
 show_excerpts: true
 excerpt_separator: <!--more-->
+source-code: https://github.com/steveno/steveno.github.io
 
 # Social links
 github_username:  steveno
