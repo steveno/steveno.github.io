@@ -10,11 +10,12 @@ layout: default
 <p class="dates">
     {% if page.last_updated %}
         Updated: {{ page.last_updated | date: "%b %d, %Y" }}
+        &nbsp;&#8226;&nbsp;
     {% else %}
         </br>
     {% endif %}
 
-    &nbsp;&#8226;&nbsp;Tags:
+    Tags:
     {% for tag in page.tags %}
         <a href="{{ site.url }}/tags.html#{{ tag }}">{{ tag }}</a>
     {% endfor %}
