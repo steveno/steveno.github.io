@@ -1,8 +1,9 @@
 title: Steven Oliver
-email: oliver.steven@gmail.com
+author:
+  name: Steven Oliver
+  email: oliver.steven@gmail.com
 description: >-
-  Steven Oliver's homepage. I write about software engineering and
-  anything else of interest.
+  I write about software engineering and anything else of interest.
 url: https://steveno.github.io
 timezone: America/New_York
 show_excerpts: true
@@ -10,7 +11,7 @@ excerpt_separator: <!--more-->
 source-code: https://github.com/steveno/steveno.github.io
 
 # Social links
-github_username:  steveno
+github_username: steveno
 linkedin_username: stevenoliver
 mastodon:
   - username: steveno
