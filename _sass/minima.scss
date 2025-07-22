@@ -13,6 +13,7 @@
 }
 @include font('CormorantGaramond', '/assets/fonts/CormorantGaramond-Regular');
 @include font('Hack', '/assets/fonts/Hack-Regular');
+@include font('IBMPlex', '/assets/fonts/IBMPlexSerif-Regular');
 
 $base-font-family: CormorantGaramond;
 $base-font-size:   22px !default;

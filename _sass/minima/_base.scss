@@ -60,10 +60,20 @@ main {
 
 
 /**
- * Dates
+ * Post data
  */
-.dates {
+.post-data {
   font-style: italic;
+  color: $grey-color;
+  font-size: $small-font-size;
+}
+
+
+/**
+ * Post date
+ */
+.post-date {
+  font-family: IBMPlex;
   color: $grey-color;
   font-size: $small-font-size;
 }

@@ -3,11 +3,11 @@ layout: default
 ---
 
 <h1>{{ page.title }}</h1>
-<h3>{{ page.date | date: '%B %-d, %Y' }}</h3>
+<h3 class="post-date">{{ page.date | date: '%B %-d, %Y' }}</h3>
 
 {{ content }}
 
-<p class="dates">
+<p class="post-data">
     {% if page.last_updated %}
         Updated: {{ page.last_updated | date: "%b %d, %Y" }}
         &nbsp;&#8226;&nbsp;
