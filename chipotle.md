@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Chipotle
-permalink: /chipotle
+title: Chipolte
+permalink: /chipolte
 ---
 
 ### Burrito bowl
